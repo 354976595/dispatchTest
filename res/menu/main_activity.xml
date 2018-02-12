@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.dispatchTest.MyActivity" >
+    <!-- 搜索-->
+    <item android:id="@+id/edit" android:icon="@drawable/edit"
+          android:title="编辑"
+          android:showAsAction="always"/>
+    <item android:showAsAction="always" android:id="@+id/del" android:icon="@drawable/del"    android:title="回收"/>
+    <!-- 设置-->
+    <item android:showAsAction="ifRoom" android:id="@+id/actionSetting" android:title="设置" android:icon="@drawable/set"/>
+
+</menu>
